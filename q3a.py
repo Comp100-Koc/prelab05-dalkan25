@@ -1,2 +1,4 @@
 def add_binary(a, b):
-    pass
+    int_a = int(a,2)
+    int_b = int(b,2)
+    return bin(int_a + int_b)
